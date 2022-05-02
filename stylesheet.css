@@ -1,0 +1,140 @@
+body, html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+  margin: 0;
+  background-color: hsl(0, 0%, 98%);
+  font-family: Poppins, arial;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  width: 530px;
+  font-weight: 200;
+  font-size: 36px;
+  letter-spacing: 0.1px;
+  line-height: 50px;
+  margin-top: 248px;
+  margin-bottom: 20px;
+  color: hsl(234, 12%, 34%);
+}
+
+.description {
+  text-align: center;
+  width: 530px;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  color: hsl(229, 6%, 66%);
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 44px 0 0 -8px;
+}
+
+section {
+  background-color: white;
+  width: 350px;
+  height: 250px;
+  margin: 20px 10px 30px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(76, 78, 97, 0.2);
+}
+
+.left-section, 
+.middle-section,
+.right-section {
+  margin-bottom: 50px;
+}
+
+.left-section,
+.right-section {
+  margin-top: -16px;
+}
+
+.top-border1,
+.top-border2,
+.top-border3,
+.top-border4 {
+  height: 4px;
+}
+
+.top-border1 {
+  background-color: hsl(180, 62%, 55%);
+}
+
+.top-border2 {
+  background-color: hsl(0, 78%, 62%);
+}
+
+.top-border3 {
+  background-color: hsl(34, 97%, 64%);
+}
+
+.top-border4 {
+  background-color: hsl(212, 86%, 64%);
+}
+
+.card-title {
+  font-size: 20px;
+  color: rgb(76, 78, 97);
+  margin: 28px 0 0 32px;
+}
+
+.tool-description {
+  font-size: 13px;
+  color: hsl(229, 6%, 66%);
+  margin: 10px 30px 0 32px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+
+.icon {
+  margin : 38px 0 0 252px;
+}
+
+@media (max-width: 400px) {
+
+  .title {
+    margin-top: 880px;
+    width: 340px;
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .description {
+    width: 300px;
+    margin: 0 0 50px 18px;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    margin-bottom: 4px;
+  }
+
+  .top-middle-section {
+    margin-bottom: 26px;
+  }
+
+  .bottom-middle-section {
+    margin-bottom: -8px;
+  }
+
+  .right-section {
+    margin-bottom: 80px;
+  }
+  
+}
